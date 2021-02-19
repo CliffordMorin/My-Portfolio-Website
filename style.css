@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --light: rgb(226, 226, 226);
+    --back: rgb(25, 172, 172);
+    --dark: rgb(17, 80, 197);
+}
+
+/* navigation bar styling */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: var(--back);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.logo{
+    color: var(--light);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.logo span{
+    color: var(--dark);
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: var(--light);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: .3s ease-in;
+}
+
+.nav-links a:hover{
+    background-color: rgb(27, 141, 141);
+    color: var(--dark);
+    border: 1px solid var(--light);
+    border-radius: 25px;
+    padding: 13px;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: var(--light);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/* home section styling */
+.home{
+    display: flex;
+    background: url(Images/portfolio-image.jpg) no-repeat ;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 20px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: var(--dark);
+    font-weight: 500;
+}
+.home .home-content a{
+    display: inline-block;
+    background: var(--back);
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid var(--back);
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: var(--back);
+    background: none;
+}
+
+/* about section styling */
+
+section{
+    padding: 40px 0px;
+}
+
+.about{
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    color: var(--back);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.about .title{
+    position: relative;
+    padding: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about-content .left{
+    width: 45%;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    object-fit: cover;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: var(--dark);
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background: var(--dark);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid var(--dark);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: var(--dark);
+    background: none;
+} 
+
+/* Work Section Styling */
+
+section{
+    padding: 40px 0px;
+}
+
+.work{
+    background-color: var(--back);
+    font-family: 'Poppins', sans-serif;
+}
+
+.work .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    color: var(--dark);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.work .title{
+    position: relative;
+    padding: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+
+/* Work Box's */
+
+.work-cnt1 {
+    width: 75%;
+    margin-left: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid black; */
+}
+
+.work-cnt2 {
+    width: 75%;
+    margin-left: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    /* border: 3px solid black; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+.work-item {
+    width: 100%;
+    min-height: 200px;
+    border: 3px solid var(--back);
+}
+
+.work-item-1 img{
+    width: 100%;
+}
+
+.work-item img{
+    width: 100%;
+    border-radius: 40px;
+}
+
+/* Blur Img */
+
+.work-blur img{
+    z-index: -1;
+    filter: blur(8px);
+    transition: filter 0.25s linear;
+}
+
+.work-blur img:hover {
+    filter: blur(0);
+  }
+
+
+/* I-Pad Sizing */
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 50%;
+    }
+}
+/* Phone screen Sizing */
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    /* Navigation bar */
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: var(--back);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in-out;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+    
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
+/* Burger Animation */
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
