@@ -85,25 +85,31 @@
     background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
 }
+
 .home .max-width{
     margin: auto 0 auto 20px;
 }
+
 .home .home-content .text-1{
     font-size: 27px;
 }
+
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 }
+
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
 }
+
 .home .home-content .text-3 span{
     color: var(--dark);
     font-weight: 500;
 }
+
 .home .home-content a{
     display: inline-block;
     background: var(--back);
@@ -117,6 +123,7 @@
     border: 2px solid var(--back);
     transition: all 0.3s ease;
 }
+
 .home .home-content a:hover{
     color: var(--back);
     background: none;
@@ -166,26 +173,32 @@ section{
     align-items: center;
     object-fit: cover;
 }
+
 .about .about-content .left img{
     height: 400px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
 }
+
 .about .about-content .right{
     width: 55%;
 }
+
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .about .about-content .right .text span{
     color: var(--dark);
 }
+
 .about .about-content .right p{
     text-align: justify;
 }
+
 .about .about-content .right a{
     display: inline-block;
     background: var(--dark);
@@ -199,6 +212,7 @@ section{
     text-decoration: none;
     transition: all 0.3s ease;
 }
+
 .about .about-content .right a:hover{
     color: var(--dark);
     background: none;
@@ -392,17 +406,21 @@ section{
     }
     
     .home .home-content .text-1{
-        font-size: 25px;
+        font-size: 20px;
     }
     .home .home-content .text-2{
-        font-size: 45px;
+        font-size: 35px;
         font-weight: 600;
         margin-left: -3px;
         color: var(--dark);
     }
     .home .home-content .text-3{
-        font-size: 20px;
+        font-size: 17px;
         margin: 5px 0;
+    }
+
+    .home .max-width{
+        margin: 170px 0 0 20px;
     }
 
     /* About me sizing */
@@ -437,12 +455,33 @@ section{
         text-align: center;
     }
 
+    .work-cnt2 {
+        width: 75%;
+        margin-left: 14%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     .row .column img{
-        height: 200px;
-        width: 300px;
+        height: 75%;
+        width: 75%;
         padding: 10px;
     }
 
+    .work-item {
+        width: 100%;
+        min-height: 200px;
+        border: 3px solid var(--back);
+        align-content: center;
+    }
+
+    .work-blur img{
+        z-index: -1;
+        filter: blur(0px);
+        transition: filter 0.25s linear;
+    }
     
     /* Contact Me sizing */
 
