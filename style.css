@@ -378,14 +378,55 @@ section{
         transform: translateX(0%);
     }
     
-    /* About me sizing */
+    /* Home sizing */
 
-    .left {
-        width: 100%;
+    .home{
+        display: flex;
+        background: url(Images/portfolio-image.jpg) no-repeat ;
+        height: 20vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .home .home-content .text-1{
+        font-size: 25px;
+    }
+    .home .home-content .text-2{
+        font-size: 45px;
+        font-weight: 600;
+        margin-left: -3px;
+        color: var(--dark);
+    }
+    .home .home-content .text-3{
+        font-size: 20px;
+        margin: 5px 0;
     }
 
-    .right {
-        width: 100%;
+    /* About me sizing */
+
+    .about .about-content .left {
+        text-align: center;
+        height: 350px;
+    }
+
+    .about .about-content .right{
+        width: 85%;
+    }
+
+    .about .about-content .right .text{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .about .about-content .left img{
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 6px;
     }
 
     /* Work Sizing */
