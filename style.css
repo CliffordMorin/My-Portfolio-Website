@@ -356,7 +356,7 @@ section{
     .nav-links{
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 70vh;
         top: 8vh;
         background-color: var(--back);
         display: flex;
