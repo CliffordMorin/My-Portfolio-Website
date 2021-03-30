@@ -308,6 +308,7 @@ section{
     height: 70px;
     text-align: center;
     text-rendering: geometricPrecision;
+    background-color: antiquewhite;
 }
 
 .card-header {
@@ -316,6 +317,7 @@ section{
     height: 70px;
     text-align: center;
     text-rendering: geometricPrecision;
+    background-color: antiquewhite;
 }
 /* Blur Img */
 
@@ -388,6 +390,21 @@ section{
 @media screen and (max-width:1024px){
     .nav-links{
         width: 50%;
+    }
+
+    .card-header-main {
+        font-size: 15px;
+        background-color: antiquewhite;
+    }
+
+    .card-header {
+        font-size: 15px;
+        background-color: antiquewhite;
+    }
+
+    .block-text {
+        text-align: center;
+        margin: 4px;
     }
 }
 /* Phone screen Sizing */
@@ -523,11 +540,20 @@ section{
     .card-header-main {
         margin: 0 auto 0 auto;
         width: 100%;
+        font-size: 12px;
+        background-color: antiquewhite;
     }
 
     .card-header {
         margin: 0 auto 0 auto;
         width: 75%;
+        font-size: 12px;
+        background-color: antiquewhite;
+    }
+
+    .block-text {
+        text-align: center;
+        margin: 7px;
     }
 
     .row .column img {
