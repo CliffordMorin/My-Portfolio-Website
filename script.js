@@ -62,5 +62,12 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
+
+    var typed = new Typed(".typing-3", {
+        strings: ["HTML", "CSS", "JavaScript", "Node.js", "jQuery", "API", "Express.js", "React", "MySQL"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
 });
 
