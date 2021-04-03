@@ -395,7 +395,7 @@ section{
     width: 55%;
 }
 
-.skills .skills-content .right .skill-img{
+.skills .skills-content .right .skill-text{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -405,7 +405,7 @@ section{
     color: var(--dark);
 }
 
-.skills .skills-content .right .skill-img{
+.skills .skills-content .right .skill-test{
     text-align: justify;
 }
 
@@ -682,6 +682,12 @@ section{
         width: 300px;
         object-fit: cover;
         border-radius: 6px;
+    }
+
+    .skills .skills-content .right .skill-text{
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
     }
 
     /* Contact Me sizing */
