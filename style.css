@@ -460,10 +460,10 @@ section{
 }
 
 .contact-me .row{
-    padding: 70px;
+    padding: 50px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .contact-me .row h3{
@@ -693,16 +693,22 @@ section{
     /* Contact Me sizing */
 
     .contact-me .row{
-        padding: 70px;
+        padding: 0px 120px 0px 120px;
         display: flex;
         flex-flow: column wrap;
     }
 
-    .contact-me .row h3{
+    .contact-me .row .contact-info{
         background-color: var(--back);
         padding: 10px;
         margin: 10px;
         border-radius: 10px;
+        text-align: center;
+    }
+
+    .contact-link{
+        padding: 10px;
+        margin: 10px;
         text-align: center;
     }
 }
