@@ -693,7 +693,7 @@ section{
     /* Contact Me sizing */
 
     .contact-me .row{
-        padding: 0px 120px 0px 120px;
+        padding: 0px 70px 0px 70px;
         display: flex;
         flex-flow: column wrap;
     }
