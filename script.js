@@ -64,7 +64,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-3", {
-        strings: ["HTML", "CSS", "JavaScript", "Node.js", "jQuery", "API", "Express.js", "React", "MySQL"],
+        strings: ["HTML", "CSS", "Bootstrap", "Materialize.js", "JavaScript", "Node.js", "jQuery", "API", "Express.js", "React", "MongoDB", "Mongo-3T", "Sequelize.js", "MySQL"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
